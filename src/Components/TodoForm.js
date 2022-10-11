@@ -29,7 +29,7 @@ const TodoForm = (props) => {
         <>
       <input
         type="text"
-        placeholder="Add a memo!"
+        placeholder="Update your memo!"
         value={input}
         name="text"
         className="todo-input edit"
