@@ -18,7 +18,7 @@ function Todo({ todos, completeTodo, removeTodo, updateTodo }) {
 
   return todos.map((todo, index) => (
     <div
-      className={todo.isComplete ? "todo-row-complete" : "todo-row"}
+      className={todo.isComplete ? "todo-row complete" : "todo-row"}
       key={index}
     >
       <div
